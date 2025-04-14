@@ -13,7 +13,7 @@ public class arraytest {
 		
 		int[] fruit = new int[4] ;
 		fruit[0] = 1000000;
-		fruit[1] = 200;
+		fruit[1] = 200222;
 		fruit[2] = 300;
 		fruit[3] = 500;
 		System.out.println(Arrays.toString(fruit));
