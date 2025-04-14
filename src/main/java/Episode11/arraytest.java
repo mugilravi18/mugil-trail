@@ -15,7 +15,7 @@ public class arraytest {
 		fruit[0] = 100;
 		fruit[1] = 200;
 		fruit[2] = 300;
-		fruit[3] = 400;
+		fruit[3] = 500;
 		System.out.println(Arrays.toString(fruit));
 		
 
