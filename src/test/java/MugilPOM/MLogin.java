@@ -11,7 +11,7 @@ public class MLogin extends MBasecode {
 	//RemoteWebDriver driver = null;
 	//Validation
 	public boolean createacc() {
-	return	driver.findElementByLinkText("Create new account").isDisplayed();
+	return	driver.findElementByLinkText("Create new accountss").isDisplayed();
 	//System.out.println(check);
 
 		
