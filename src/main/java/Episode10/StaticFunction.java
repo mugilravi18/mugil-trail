@@ -6,7 +6,7 @@ public class StaticFunction {
 	
 	static public void displayName() {
 		//System.out.println(this.a);
-		System.out.println("Hello World");
+		System.out.println("Hello World123");
 	}
 	
 	
