@@ -17,7 +17,7 @@ public class Login {
 				// Enter the Email id
 		driver.findElementByLinkText("log in").click();
 				// Enter the Password
-		driver.findElementByName("Email").sendKeys("koushik350@gmail.com");
+		driver.findElementByName("Email").sendKeys("mugil.ravi@gmail.com");
 		driver.findElementByName("Password").sendKeys("Pass123$");
 				// click the login btn
 		driver.findElementByXPath("//button[.'Login']").click();		

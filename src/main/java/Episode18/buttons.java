@@ -37,8 +37,8 @@ public class buttons {
 		System.out.println(dim.getWidth());
 		
 		//Confirm button is disable
-		boolean value = driver.findElementById("isDisabled").isEnabled();
-		System.out.println(value);
+		boolean values = driver.findElementById("isDisabled").isEnabled();
+		System.out.println(values);
 	
 		driver.quit();
 	}
