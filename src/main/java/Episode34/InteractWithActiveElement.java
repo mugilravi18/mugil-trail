@@ -17,7 +17,6 @@ public class InteractWithActiveElement {
 		driver.get("https://www.facebook.com/login");
 		WebElement ele = driver.switchTo().activeElement();
 		ele.sendKeys("mugil.ravi18@gmail.com",Keys.TAB, "Shanthi", Keys.ENTER);
-		
 
 	}
 

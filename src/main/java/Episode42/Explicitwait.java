@@ -38,7 +38,7 @@ public class Explicitwait {
 		
 		
 		  System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
-		  ChromeDriver driver = new ChromeDriver();
+		  ChromeDriver driver1 = new ChromeDriver();
 		  driver.manage().window().maximize();
 		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		  driver.get("https://letcode.in/signin"); 
@@ -50,7 +50,7 @@ public class Explicitwait {
 		  // To find the Toast 
 		  WebElement toast = driver.findElement(By.xpath("//div[@role='alertdialog']")); 
 		  //To wait till the toast visible 
-		  WebDriverWait wait = new WebDriverWait(driver,30);
+		  WebDriverWait wait1 = new WebDriverWait(driver,30);
 		  wait.until(ExpectedConditions.visibilityOf(toast)); 
 		  //To print the text
 		  System.out.println(toast.getText()); 
@@ -63,20 +63,20 @@ public class Explicitwait {
 		//wait for the title change
 		
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
-		ChromeDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("https://www.flipkart.com/mobile-phones-store");
+		ChromeDriver driver2 = new ChromeDriver();
+		driver2.manage().window().maximize();
+		driver2.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver2.get("https://www.flipkart.com/mobile-phones-store");
 		//driver.findElementByXPath("//button[.='✕']").click();
 		WebElement elec = driver.findElementByXPath("//span[.='Electronics']");
 		//To create object
-		Actions builder = new Actions(driver);
+		Actions builder = new Actions(driver2);
 		//To hover the mouse
 		builder.moveToElement(elec).perform();
 		// To Find apple
 		WebElement Apple = driver.findElement(By.linkText("Apple"));
 		// To create a object 
-		WebDriverWait wait = new WebDriverWait(driver,30);
+		WebDriverWait wait2 = new WebDriverWait(driver,30);
 		// To wait until the apple visible
 		wait.until(ExpectedConditions.visibilityOf(Apple));
 		//To click

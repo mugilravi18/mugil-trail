@@ -1,4 +1,4 @@
-package Episode9;
+package Episode09;
 
 public class Svariable {
 	

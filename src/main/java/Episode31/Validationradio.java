@@ -29,8 +29,8 @@ public class Validationradio {
 		 
 		//working code
 		
-		  driver.get("https://semantic-ui.com/elements/button.html"); WebElement btn =
-		  driver.findElementByXPath("//button[text()[normalize-space()='Followed']]");
+		  driver.get("https://semantic-ui.com/elements/button.html"); 
+		  WebElement btn = driver.findElementByXPath("//button[text()[normalize-space()='Followed']]");
 		  System.out.println(btn.isEnabled()); 
 		  String attribute = btn.getAttribute("class");
 		  System.out.println(attribute.contains("disabled"));
@@ -45,7 +45,7 @@ public class Validationradio {
 		//System.out.println(select);
 		
 		driver.get("https://letcode.in/radio");
-		WebElement remember = driver.findElementByXPath("((//label[@class='checkbox']//input)[1]");
+		WebElement remember = driver.findElementByXPath("(//label[@class='checkbox']//input)[1]");
 		System.out.println(remember.isSelected());
 		
 		

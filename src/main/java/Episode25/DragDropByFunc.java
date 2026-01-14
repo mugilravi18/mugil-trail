@@ -18,9 +18,10 @@ public class DragDropByFunc {
 		driver.switchTo().frame(0);
 		WebElement source = driver.findElementById("draggable");
 		Actions builder = new Actions(driver);
-		//int x = source.getLocation().getX();
-		//int y = source.getLocation().getY();
-		builder.dragAndDropBy(source, 30, 50).perform();
+		int x = source.getLocation().getX();
+		int y = source.getLocation().getY();
+		//builder.dragAndDropBy(source, x, y).perform();
+		builder.dragAndDropBy(source, 50, 90).perform();
 	}
 
 }

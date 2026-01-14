@@ -13,14 +13,16 @@ public class ReadProperties {
 		
 		  Properties properties = new Properties(); 
 		  properties.load(new FileInputStream("./PropertiesEnglish.properties")); 
-		  String property = properties.getProperty("Welcome"); System.out.println(property);
+		  String property = properties.getProperty("Welcome"); 
+		  System.out.println(property);
 		 
 		/*
-		 * Properties properties = new Properties(); properties.load(new
-		 * FileInputStream("./Locators.properties")); ChromeDriver driver = new
-		 * ChromeDriver(); driver.findElementByLinkText("log in").click();
-		 * driver.findElementByName("Email").sendKeys("koushik350@gmail.com");
-		 * driver.findElementByName("Password").sendKeys("Pass123$");
+		 * Properties properties = new Properties(); 
+		 * properties.load(new FileInputStream("./Locators.properties"));
+		 *  ChromeDriver driver = new ChromeDriver(); 
+		 *  driver.findElementByLinkText("log in").click();
+		 * driver.findElementByName("Email").sendKeys(properties.getProperty("email"));
+		 * driver.findElementByName("Password").sendKeys(properties.getProperty("password"));
 		 * driver.findElementByXPath("//button[.'Login']").click();
 		 */		
 	

@@ -36,9 +36,11 @@ public class Webtable {
         	//Scenario to get all and going to print any value based on index(test)
         	
 			/*
-			 * for (WebElement rows : test) { //Will get all row from above scenario
-			 * List<WebElement> test2 = rows.findElements(By.cssSelector("td")); // To
-			 * return the firstcolumn WebElement firstcolumn = test2.get(0); //To Print
+			 * for (WebElement rows : test) { 
+			 * //Will get all row from above scenario
+			 * List<WebElement> test2 = rows.findElements(By.cssSelector("td")); 
+			 * // To return the firstcolumn 
+			 * WebElement firstcolumn = test2.get(0); //To Print
 			 * System.out.println(firstcolumn.getText()); }
 			 */
         	

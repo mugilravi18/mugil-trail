@@ -6,7 +6,6 @@ public class PersonalDetails {
 		int age = 1;
 		String DOB = "06/03/2024";
 		Double weight = 69.0;
-		
 		System.out.println("Hi my name is" + name +"."+ "My age is" +age +"."+"My Date Of Birth is"+DOB+"."+ "My weight is"+ weight +"." );
 		return "";
 	}
